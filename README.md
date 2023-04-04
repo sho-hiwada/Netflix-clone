@@ -1,5 +1,10 @@
 これは、React、NextJS、TailwindCSS＆Prismaを使用したFullStack Netflixクローンチュートリアルのリポジトリです。
 
+![TOPページのスクリーンショット](netflix/public/images/image-README/_top-01.png)
+![TOPページのスクリーンショット](netflix/public/images/image-README/_top-02.png)
+![MovieModalのスクリーンショット](netflix/public/images/image-README/_modal-01.png)
+![認証ページのスクリーンショット](netflix/public/images/image-README/_auth.png)
+
 ## はじめに
 
 最初に、開発用サーバーを起動します。
@@ -29,15 +34,15 @@ pages/apiディレクトリは、Reactページの代わりにAPIルートとし
 
 特徴：
 
-・環境、Typescript、NextJSセットアップ
-・MongoDB＆Prisma接続、データベース作成
-・NextAuthを使用した認証、Google＆Githubログイン
-・すべてのページでの完全なレスポンシブ対応
-・Cookieベースの認証
-・APIおよびコントローラーの作成
-・TailwindCSSを使用した細かいエフェクトとアニメーション
-・React SWRデータ取得
-・Zustand状態管理
+- 環境、Typescript、NextJSセットアップ
+- MongoDB＆Prisma接続、データベース作成
+- NextAuthを使用した認証、Google＆Githubログイン
+- すべてのページでの完全なレスポンシブ対応
+- Cookieベースの認証
+- APIおよびコントローラーの作成
+- TailwindCSSを使用した細かいエフェクトとアニメーション
+- React SWRデータ取得
+- Zustand状態管理
 
 前提条件
 ・Nodeバージョン14.x
