@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+これは、React、NextJS、TailwindCSS＆Prismaを使用したFullStack Netflixクローンチュートリアルのリポジトリです。
 
 ## はじめに
 
@@ -8,11 +8,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 npm run dev
 ```
 
-ブラウザでhttp://localhost:3000を開くと結果が表示されます。
+ブラウザで http://localhost:3000 を開くと結果が表示されます。
 
 pages/index.tsxを編集することでページの編集を開始できます。ファイルを編集すると、ページは自動的に更新されます。
 
-APIルートは、http://localhost:3000/api/helloでアクセスできます。このエンドポイントは、pages/api/hello.tsで編集できます。
+APIルートは、 http://localhost:3000/api/hello でアクセスできます。このエンドポイントは、 pages/api/hello.ts で編集できます。
 
 pages/apiディレクトリは、Reactページの代わりにAPIルートとして扱われるため、/api/*にマップされます。
 
@@ -26,3 +26,28 @@ pages/apiディレクトリは、Reactページの代わりにAPIルートとし
 - [Prisma]
 - [MongoDB]
 - [NextAuth]
+
+特徴：
+
+・環境、Typescript、NextJSセットアップ
+・MongoDB＆Prisma接続、データベース作成
+・NextAuthを使用した認証、Google＆Githubログイン
+・すべてのページでの完全なレスポンシブ対応
+・Cookieベースの認証
+・APIおよびコントローラーの作成
+・TailwindCSSを使用した細かいエフェクトとアニメーション
+・React SWRデータ取得
+・Zustand状態管理
+
+前提条件
+・Nodeバージョン14.x
+
+## .envファイルの設定
+
+DATABASE_URL=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GITHUB_ID=
+GITHUB_SECRET=
+NEXTAUTH_JWT_SECRET=
+NEXTAUTH_SECRET=
